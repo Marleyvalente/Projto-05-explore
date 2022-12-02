@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    font-size: 62.5%;
+
+}
+
+body{
+    background: #ECE9FD; 
+
+
+    padding: 6.0rem 2.3rem 6.6rem;
+    font-size: 1.6rem;
+
+
+    font-family: 'Epilogue', sans-serif;
+}    
+
+main{
+    max-width: 33.0rem;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    margin-bottom: 1.5rem;
+
+    color: #090039;
+    
+}
+
+ul{
+    list-style: none;
+
+    margin-top: 7.2rem;
+}
+main p:first-child{
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+
+    margin-bottom:1.7rem;
+
+    color: #7158EF;
+}
+
+h1 + p{
+    color: rgba(10, 0, 57, 0.64);
+    line-height: 3.2rem;
+    margin-bottom:3.2rem;
+}
+
+a{
+    color: #090039;
+
+    text-decoration: none;
+
+    line-height: 3.2rem;
+
+
+    margin-top: 7.2rem;
+}
+
+a:hover{
+    color: #2812a0;
+    font-weight: bold;
+}
+
+ul li span {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+
+
+    letter-spacing: -0.2rem;
+
+
+
+    color: #090039;
+
+}
+
+ul li{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+
+    width: 25.7rem;
+
+    display: flex;
+    align-items: flex-start;
+    gap:3.8rem;
+
+    /* O flex start vai alinhar desde a ponta do elemento*/
+ 
+
+    color: #090039;
+
+}
+
+@media (min-width: 700px) {
+    body{
+        padding-top: 8rem;
+    }
+    
+    main {
+        max-width: 1002px;
+        display: flex;
+        gap: 10rem;
+    }
+
+    main > div {
+        max-width: 484px;
+
+    }
+
+    ul li {
+        gap: 5.3rem;
+        max-width: 450px;
+        align-items: center;
+
+    }
+
+    ul li + li{
+        margin-top: 3.2rem;
+    }
+}
